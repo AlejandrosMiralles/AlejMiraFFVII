@@ -1,3 +1,25 @@
+@font-face {
+    font-family: Romance fatal seriff;
+    src:url("../tipografia/romance\ fatal\ serif\ JC\ Fonts.ttf");
+}
+
+@font-face {
+    font-family: OldeEnglish;
+    src:url("../tipografia/OldeEnglish.ttf");
+}
+
+
+
+
+
+* {
+    font-family: "Romance fatal seriff";
+}
+
+h1,h2,h3,h4, h5,h6{
+    font-family: "OldeEnglish";
+}
+
 body {
     /*El cuerpo. 
     Estos valores se aplicarán a TODAS las páginas*/
@@ -21,13 +43,24 @@ body {
     text-indent: 1.5em;
 }
 
-#Boton_modo_noche {
-    position: absolute;
-    left:0.5em;
+nav{
+    width: 50em;
+    display: inline-block;
+    text-align: center;
+    height: 0em;
+    position: relative;
+    bottom: 2em;
+}
 
-    width: 7.3em;
+#Boton_modo_noche {
+    position: relative;
+    font-size: 5em;
+
+    width: 10em;
     
+    /* 43 x 57 */
     background: transparent url(../Imagenes/RedNocheSinFondoChico.jpg) no-repeat left center;
+    background-size: 1.33em 1em;
 
     color: white;
 
@@ -35,10 +68,11 @@ body {
 
 #Boton_modo_noche a {
     margin: 1.5em 3.1em; 
-    margin-right: 1em;
-    float: left; 
-    clear: left; 
+    padding-left: 3em;
 
+
+    display: inline;
+    margin: 0em;
     text-align: right;
 }
 
@@ -60,14 +94,15 @@ body {
     border-style: outset;
 }
 
-#content{
+content{
     /*El contenido. 
     Entre el fondo y el contenido he intentado
     conseguir un "efecto FFVII".*/
 
+    display: inline-block;
     position: relative;
     top: 3em;
-    left: 12em;
+    left: 0em;
 
     overflow: hidden;
 
@@ -87,7 +122,7 @@ body {
 
 }
 
-#content img.adjunto {
+content img.adjunto {
     float: right;
     display: block;
     padding-left: 1em;
@@ -96,22 +131,83 @@ body {
 
 }
 
-#content a:link{
+content img.adjunto:hover{
+    opacity: 0.7;
+}
+
+/** CSS para hacer más grandes las imagenes al clickar en ellas */
+
+content .modal{
+    /* The Modal (background) */
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+content .modal-content{
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+content #caption{
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* The Close Button */
+content .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+  
+content .close:hover, #content .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+
+
+content a:link{
     color: #ffffff;
     text-decoration: none;
 }
-#content a:visited{
+
+content a:visited{
     color: #ffffff;
     text-decoration: none;
 }
-#content a:hover{
+content a:hover{
     
     color: #ff04ff;
     text-decoration:dashed;
 }
 
 
-#header {
+header {
     /*La cabecera.
     Es simplemente una foto de la ciudad
     de Midgar.*/
@@ -130,24 +226,26 @@ body {
     color: lavender;
 }
 
-#header a {
+header a {
     /*Muestra los enlaces de forma normal*/
     color: lavender;
     text-decoration: none;
 }
 
-#header h1 {
+header h1 {
     /*Bajo el título para que se pueda leer bien*/
     padding-top: 3em;
 }
 
-#footer{
+footer{
     /*El pie de página. 
     Como es más trivial, lo he hecho
     más oscuro (se camufla más con el fondo)*/
     
     position: relative;
     top: 5em;
+    left: 8em;
+    width: 62em;
 
     background-color: #8bc5c5;
 
@@ -157,7 +255,7 @@ body {
     color: #5f7c7b;
 }
 
-#footer a{
+footer a{
     /*Muestra los enlaces del pie de página en morado*/
     color: #9f21a3;
 }
@@ -188,6 +286,23 @@ ul{
     float: left;
     width: 20em;
     height: 25em;
+}
+
+ul#categorias{
+    position: relative;
+    left: 4em;
+}
+
+ul#categorias li{
+    float: left;
+    width: 10em;
+    height: 10em;
+}
+
+ul#categorias li input{
+    float: left;
+    width: 7em;
+    height: 3em;
 }
 
 table {

@@ -52,7 +52,7 @@ body {
     text-decoration: none;
 }
 
-#content{
+content{
     /*El contenido. 
     Entre el fondo y el contenido he intentado
     conseguir un "efecto FFVII".*/
@@ -71,22 +71,22 @@ body {
 
 }
 
-#content a:link{
+content a:link{
     color: #4efff6;
     text-decoration: none;
 }
-#content a:visited{
+content a:visited{
     color: #4efff6;
     text-decoration: none;
 }
-#content a:hover{
+content a:hover{
     
     color: #3cf884;
     text-decoration:dashed;
 }
 
 
-#header {
+header {
     /*La cabecera.
     Es simplemente una foto de la ciudad
     de Midgar.*/
@@ -105,18 +105,18 @@ body {
     color: lavender;
 }
 
-#header a {
+header a {
     /*Muestra los enlaces de forma normal*/
     color: lavender;
     text-decoration: none;
 }
 
-#header h1 {
+header h1 {
     /*Bajo el título para que se pueda leer bien*/
     padding-top: 3em;
 }
 
-#footer{
+footer{
     /*El pie de página. 
     Como es más trivial, lo he hecho
     más oscuro (se camufla más con el fondo)*/
@@ -132,7 +132,7 @@ body {
     color: #c3fffc;
 }
 
-#footer a{
+footer a{
     /*Muestra los enlaces del pie de página en morado*/
     color: #9f21a3;
 }
