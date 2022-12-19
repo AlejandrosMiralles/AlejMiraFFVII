@@ -1,31 +1,13 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3c.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="es"> 
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>AlejandroMiralles Home</title> 
-    <link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
-    <link rel="shortcut icon" href="../Imagenes/logoFavicon.ico" type="image/x-icon" />
+{% extends 'base.html.twig' %}
 
-    <meta charset="utf-8" />
-    <meta name="keywords" content="wiki, FFVII, final fantasy, final fantasy 7, final fantasy VII, informacion, datos, ventas, gameplay, historia, compra, feedback, retroalimentacion, mecanicas, jugabilidad" />
-    <meta name="author" content="Alejandro Miralles Ruiz, estudiante de 2n DAW presencial en el IES El Caminas" />
-    <meta name="description" content="Pagina que que cuenta la historia y gameplay del juego FFVII y toda información relacionada a este." />
-  
+{% block keywords %}"wiki, FFVII, final fantasy, final fantasy 7, final fantasy VII, informacion, datos, ventas, gameplay, historia, compra, feedback, retroalimentacion, mecanicas, jugabilidad"{% endblock %}
 
-  </head>
-  
-  <body>
-      <header>
-        <h1><a href="index.html" hreflang="es" type="text/html" rev="start">Final Fantasy VII</a></h1>
-        <br/><br/><br/>
-      </header>
-    
-      <nav>
-        <p id="Boton_modo_noche"><a href = "../Modo noche/InformacionJuego.html" type="text/html" hreflang="es">Modo noche</a></p>
-      </nav>
+{% block description %}"Pagina que que cuenta la historia y gameplay del juego FFVII y toda información relacionada a este." {% endblock %}
 
-      <content>
+{% block javascripts %}{% endblock %}
+
+{% block content %}
         <h2>Juego</h2><br/>
 
         <p>Final Fantasy es uno de los juegos más populares de la saga Final Fantasy. <abbr title="Final Fantasy 7">FFVII</abbr> ha llegado a vender más de 12,3 millones de copias desde su lanzamiento.
@@ -87,12 +69,9 @@
             </ol></li>
           </ul>
         </div>
-      </content>
-     
-     <footer>
-        <br/><br/>
-        <p>Fuentes: <a hreflang="es" href="https://www.hobbyconsolas.com/noticias/final-fantasy-vii-lleva-vendidas-123-millones-copias-lanzamiento-521885">Hobbyconsolas</a></p>
-     </footer>
-  </body>
-</html>
+{% endblock %}
 
+{% block footer %}
+    <br/><br/>
+    <p>Fuentes: <a hreflang="es" href="https://www.hobbyconsolas.com/noticias/final-fantasy-vii-lleva-vendidas-123-millones-copias-lanzamiento-521885">Hobbyconsolas</a></p>
+{% endblock %}

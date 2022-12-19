@@ -14,4 +14,10 @@
 
 ### 5- Incluir un sistema de usuariores. Con algunos de ellos pudiendo editar la propia página. 
 
-### 6- Documentar todo (el readme, los phps y html twigs)
+
+### 6- Modificar los contenidos para que estén actualizados y ver si puedo refactorizar algo (php o twig)
+
+
+### 7- Terminar de hacer el TODO list
+
+### 7- Documentar todo (el readme, los phps y html twigs)

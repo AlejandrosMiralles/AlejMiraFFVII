@@ -1,0 +1,76 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Serpiente de Kalm{% endblock %}
+
+{% block keywords %}"wiki, FFVII, final fantasy, final fantasy 7, final fantasy VII, informacion, monstruo, enemigo, jefe, boss, serpiente, SerpienteKalm, Kalm"{% endblock %}
+
+{% block description %}"Pagina que reune toda la informacion del enemigo de FFVII la Serpiente."{% endblock %}
+
+{% block javascripts %} {% endblock %}
+
+{% block content %}
+                <h2><a id="home2" hreflang="es" href="{{ path ('index')}}">Home</a>-<a hreflang="es" type="text/html" href="{{ path('app_monsters')}}">Monstruos</a>-SerpienteKalm</h2>
+                <br/><h1>Serpiente de Kalm</h1><br/>
+                
+                
+                <img class= adjunto alt="Imagen de la serpiente" src="{{ asset('img/Serpiente.png')}}" width="400"/>
+                <!--HTML para crear una nueva imagen. Es la misma de arriba pero más grande-->
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+
+
+
+                <p>La serpiente es un monstruo sin debilidades. Suelen aparecer en Midgar, antes de entrar en la cueva de Midgar. 
+                <br/>Su nivel es tan alto que el jugador debe esquivarla con un chocobo para poder avanzar en la historia.
+                        Hasta un <cite>NPC del rancho chocobo, Chocobo Bill</cite> advierte al jugador de su fuerza:</p> 
+                <blockquote cite="https://finalfantasy.fandom.com/wiki/Midgar_Zolom">Its a serpent like creature over 30 feet tall!! It picks up on footsteps that enter the marshes... And then, BAM!! It attacks!!!</blockquote>
+                
+                <table>
+                    <caption>Tabla entre nivel hp magia y movimientos</caption>
+                    <thead>
+                        <tr>
+                            <th scope="row">Nivel</th>
+                            <th></th>
+                            <th scope="col">30</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Experiencia</th>
+                            <th></th>
+                            <td>700</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Vida</th>
+                            <th></th>
+                            <td>12000</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Magia</th>
+                            <th></th>
+                            <td>700</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Movimientos</th>
+                            <th></th>
+                            <td>Coletazo<br/>Colmillo venenoso<br/>Tornado<br/>Explosión</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Objetos</th>
+                            <th></th>
+                            <td>Nada</td>
+                        </tr>
+                    </tbody>   
+                </table>
+                <p>Si el jugador llega a esquivar a la Serpiente se encontrará con un escena en la que Cloud y sus compañeros se encuentran con una serpiente muerta y clavada en un arból. La hazaña es tan irrealista que piensan que fue Sefirot el responsable:</p>
+                <img alt="Imagen de la serpeinte muerta" src="{{ asset('img/DidSefirotoDoThis.jpg')}}" width="400"/>
+            
+{% endblock %}
+
+
+{% block footer %}
+    <p>Fuente: <a href="https://finalfantasy.fandom.com/wiki/Midgar_Zolom">Fandom de Final Fantasy VII</a></p>
+{% endblock %}

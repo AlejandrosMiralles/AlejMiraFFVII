@@ -1,36 +1,19 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3c.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+{% extends 'base.html.twig' %}
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
-    <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-      <title>AlejandroMiralles Home</title>
-      <link rel="stylesheet" type="text/css" href="../estilo.css" media="screen" />
-      <link rel="shortcut icon" href="../../Imagenes/logoFavicon.ico" type="image/x-icon" />
- 
-      <script type="text/javascript" src="../../Javascript/ExpandImg.js" ></script>
+{% block title %}Soldado Raso{% endblock %}
 
-      <meta charset="utf-8" />
-      <meta name="keywords" content="wiki, FFVII, final fantasy, final fantasy 7, final fantasy VII, informacion, enemigo, monstruo, soldado raso, ejercito, Rufus, soldado, raso, Shinra, guerrero, combatiente, recluta, militante" />
-      <meta name="author" content="Alejandro Miralles Ruiz, estudiante de 2n DAW presencial en el IES El Caminas" />
-      <meta name="description" content="Pagina que reune toda la informacion del monstruo de FFVII el soldado raso." />
-    
-    </head>
-    <body>
-            <header>
-                <h1><a id="home" hreflang="es" href="../index.html">Final Fantasy VII</a></h1>
-                <br/><br/>
-            </header>
+{% block keywords %}"wiki, FFVII, final fantasy, final fantasy 7, final fantasy VII, informacion, enemigo, monstruo, soldado raso, ejercito, Rufus, soldado, raso, Shinra, guerrero, combatiente, recluta, militante"{% endblock %}
 
-            <nav>
-                <p id="Boton_modo_noche"><a href = "../../Modo noche/Monstruos/SoldadoRaso.html" type="text/html" hreflang="es">Modo noche</a></p>
-            </nav>
-            
-            <content>
-                <h2><a id="home2" hreflang="es" href="../index.html">Home</a>-<a hreflang="es" type="text/html" href="Monstruos.html">Monstruos</a>-Soldado Raso</h2>
+{% block description %}"Pagina que reune toda la informacion del monstruo de FFVII el soldado raso."{% endblock %}
+
+{% block javascripts %} {% endblock %}
+
+{% block content %}
+                <h2><a id="home2" hreflang="es" href="{{ path('index')}}">Home</a>-<a hreflang="es" type="text/html" href="{{ path('app_monsters')}}">Monstruos</a>-Soldado Raso</h2>
                 <br/><h1>Soldado Raso</h1><br/>
 
                 
-                <img class="adjunto" alt="Imagen de un soldado" src="../..//Imagenes/SoldadoRaso.jpg" width="400"/>
+                <img class="adjunto" alt="Imagen de un soldado" src="{{ asset('img/SoldadoRaso.jpg')}}" width="400"/>
                 <!--HTML para crear una nueva imagen. Es la misma de arriba pero más grande-->
                 <div id="myModal" class="modal">
                     <span class="close">&times;</span>
@@ -98,6 +81,8 @@
                         </tr>
                     </tbody>   
                 </table>
-            </content>
-    </body>
-</html>
+{% endblock %}
+
+
+{% block footer %}
+{% endblock %}

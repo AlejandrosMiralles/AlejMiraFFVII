@@ -1,0 +1,72 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Joker{% endblock %}
+
+{% block keywords %}"wiki, FFVII, final fantasy, final fantasy 7, final fantasy VII, informacion, enemigo, monstruo, joker, desierto"{% endblock %}
+
+{% block description %}"Pagina que reune toda la informacion del monstruo de FFVII Joker."{% endblock %}
+
+{% block javascripts %} {% endblock %}
+
+{% block content %}
+                <h2><a id="home2" hreflang="es" href="{{ path ('index')}}">Home</a>-<a hreflang="es" type="text/html" href="{{ path('app_monsters')}}">Monstruos</a>-Joker</h2>
+                <br/><h1>Joker</h1><br/>
+                
+                
+                <img class="adjunto" alt="Imagen del joker" src="{{ asset ('img/Joker.png')}}"/>
+                <!--HTML para crear una nueva imagen. Es la misma de arriba pero más grande-->
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+
+
+                <p>El joker es un monstruo sin debilidades. Suelen aparecer en los alrededores del desierto.</p>
+
+                <table>
+                    <caption>Tabla entre nivel hp magia y movimientos</caption>
+                    <thead>
+                        <tr>
+                            <th scope="row">Nivel</th>
+                            <th></th>
+                            <th scope="col">15</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Experiencia</th>
+                            <th></th>
+                            <td>150</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Vida</th>
+                            <th></th>
+                            <td>700</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Magia</th>
+                            <th></th>
+                            <td>200</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Movimientos</th>
+                            <th></th>
+                            <td>Cartas*</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Objetos</th>
+                            <th></th>
+                            <td>Dados</td>
+                        </tr>
+                    </tbody>   
+                </table>
+            </content>
+        </div>
+{% endblock %}
+
+
+{% block footer %}
+    <p><strong>Cartas*=</strong>Magia única del joker. Consiste en tirar una carta que puede usar alguna magia de daño, curar o incluso causar una muerte instantanea. El efecto se decide aleatoriamente.</p>
+{% endblock %}
