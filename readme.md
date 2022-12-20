@@ -1,5 +1,7 @@
 #   COSAS POR TERMINAR/HACER
 
+### 0- ARREGLAR LOS PROBLEMAS DE COMMITS
+
 ### 1-  Incorporar la página al symfony
 
 
