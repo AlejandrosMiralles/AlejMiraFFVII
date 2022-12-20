@@ -16,7 +16,7 @@
     font-family: "Romance fatal seriff";
 }
 
-.h1,.h2,.h3,.h4, .h5,.h6{
+h1,h2,h3,h4, h5,h6{
     font-family: "OldeEnglish";
 }
 
@@ -43,51 +43,13 @@ body {
     text-indent: 1.5em;
 }
 
-
-
-
-/** Header */
-header {
-    /*La cabecera.
-    Es simplemente una foto de la ciudad
-    de Midgar.*/
-
-    position: relative;
-
-    width: 62em;
-    height: 11em;
-
-    background-image: url("../Imagenes/CabeceraFondo4_FFVII.png");
-    background-repeat: no-repeat;
-
-    border-style: groove;
-
-    color: lavender;
-}
-
-header a {
-    /*Muestra los enlaces de forma normal*/
-    color: lavender;
-    text-decoration: none;
-}
-
-header .h1 {
-    /*Bajo el título para que se pueda leer bien*/
-    padding-top: 2em;
-}
-
-
-
-
-
-/** Nav */
 nav{
     width: 50em;
     display: inline-block;
+    text-align: center;
     height: 0em;
     position: relative;
-    bottom: 0em;
-    right: 15em;
+    bottom: 2em;
 }
 
 #Boton_modo_noche {
@@ -111,6 +73,7 @@ nav{
 
     display: inline;
     margin: 0em;
+    text-align: right;
 }
 
 
@@ -131,9 +94,6 @@ nav{
     border-style: outset;
 }
 
-
-
-/** Content*/
 content{
     /*El contenido. 
     Entre el fondo y el contenido he intentado
@@ -142,6 +102,7 @@ content{
     display: inline-block;
     position: relative;
     top: 3em;
+    left: 0em;
 
     overflow: hidden;
 
@@ -246,7 +207,6 @@ content a:hover{
 }
 
 
-<<<<<<<< HEAD:aleMirFFVII/public/styles/style.css
 header {
     /*La cabecera.
     Es simplemente una foto de la ciudad
@@ -276,10 +236,7 @@ header h1 {
     /*Bajo el título para que se pueda leer bien*/
     padding-top: 3em;
 }
-========
->>>>>>>> eb7310668aa38406c3dfce3f43b30dded9835b6d:finalProject/ModoDía/estilo.css
 
-/** Estilos muy especificos*/
 footer{
     /*El pie de página. 
     Como es más trivial, lo he hecho
@@ -287,6 +244,7 @@ footer{
     
     position: relative;
     top: 5em;
+    left: 8em;
     width: 62em;
 
     background-color: #8bc5c5;
@@ -302,8 +260,6 @@ footer a{
     color: #9f21a3;
 }
 
-
-/** Elementos MUY especificos*/
 dl {
     /*Muestra la tabla como en el juego*/
 
@@ -358,29 +314,4 @@ table {
 
     
     margin-top: 5em;
-}
-
-
-
-/** Estilo para hacer la página responsiva*/
-@media only screen and (max-width: 1250px) {
-    
-
-    sidebar {
-        display: block;
-        position: relative;
-        left: 5em;
-        bottom: 0em;
-
-        width: 30em;
-
-        padding-top: 5em;
-
-
-    }
-
-    footer {
-        top: 10em;
-    }
-
 }
