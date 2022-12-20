@@ -1,13 +1,6 @@
 #   COSAS POR TERMINAR/HACER
 
-### 0- ARREGLAR LOS PROBLEMAS DE COMMITS
-
 ### 1-  Incorporar la página al symfony
-
-
-### 2- Poder saber distinguir entre el css de día y el de noche a través de las cookies.
-
-
 ### 3- Hacer el formulario en symfony.
 
 
@@ -22,4 +15,19 @@
 
 ### 7- Terminar de hacer el TODO list
 
-### 7- Documentar todo (el readme, los phps y html twigs)
+
+### 8- Documentar todo (el readme, los phps y html twigs)  
+
+
+### 9- Arreglar el problemas de las Cookies y el botón en /monstruos
+
+
+
+
+
+# Cosas terminadas
+
+### 1- Arreglar los problemas de los commits
+
+
+### 2- Poder saber distinguir entre el css de día y el de noche a través de las cookies.

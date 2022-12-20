@@ -4,21 +4,29 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
     <title>{% block title %}{% endblock %}</title> 
-    <link rel="stylesheet" type="text/css" href="{{ asset ('styles/style.css')}}" media="screen" >
     <link rel="shortcut icon" href="{{ asset ('img/logoFavicon.ico')}}" type="image/x-icon" >
 
+    {% set morningMode = (app.request.cookies.get('morningMode') == 'true')  %}
+
+    {% if morningMode %}
+      <link rel="stylesheet" type="text/css" href="{{ asset ('styles/styleDia.css')}}" media="screen" >
+    {% else %}
+      <link rel="stylesheet" type="text/css" href="{{ asset ('styles/styleNoche.css')}}" media="screen" >
+    {% endif %}
 
     <meta charset="utf-8" />
     <meta name="keywords" content={% block keywords %}{% endblock %} >
     <meta name="author" content="Alejandro Miralles Ruiz, estudiante de 2n DAW presencial en el IES El Caminas">
     <meta name="description" content={% block description %}{% endblock %} >
   
-    {% block javascripts %}{% endblock %}
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+
+    <script src="{{ asset ('js/Cookies.js')}}"></script>
+    {% block javascripts %}{% endblock %}
 
   </head>
   <body>
@@ -29,7 +37,7 @@
         
         <div class="col-md-12">
           <header>
-            <span class="h1"><a id="home">Final Fantasy VII</a></span>
+            <span class="h1"><a id="home" href="{{ path ('index')}}">Final Fantasy VII</a></span>
           </header>
         </div>
       </div>
@@ -38,7 +46,12 @@
       <div class="container separate-rows tall rows">
         <div class="col-md-12">
           <nav>
-            <p id="Boton_modo_noche"><a href = "ModoNoche/index.html" type="text/html" hreflang="es">Modo noche</a></p>
+            {% if not morningMode %}
+              <p name="Boton_cambio_dia" class="Boton_modo_dia"><a type="text/html" hreflang="es">Modo noche</a></p>
+            {% else %}
+              <p name="Boton_cambio_dia" class="Boton_modo_noche"><a href = "." type="text/html" hreflang="es">Modo dia</a></p>
+            {% endif %}
+          
           </nav>
         </div>
       </div>

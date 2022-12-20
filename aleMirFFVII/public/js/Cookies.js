@@ -6,17 +6,12 @@ const cookieName = "morningMode";
 const morningModeLinkID = "Boton_modo_dia";
 
 function setNewModeCookie(event){
-   document.cookie = cookieName + "=" + (event.target.parentNode.className == morningModeLinkID );
+    event.preventDefault();
+    document.cookie = cookieName + "=" + (event.target.parentNode.className == morningModeLinkID );
+    location.reload();
 }
 
 
-window.onload = function(){
-    modeLink = document.getElementById("Boton_cambio_dia");
-
-    if(addEventListener){
-        modeLink.addEventListener("click", setNewModeCookie, true);
-    } else {
-        modeLink.attachEvent("onclick", setNewModeCookie);
-    }
-
-}
+$(document).ready(function(){
+    $('p[name=Boton_cambio_dia] a').on("click", setNewModeCookie);
+});
