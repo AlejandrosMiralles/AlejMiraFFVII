@@ -10,14 +10,14 @@
 
 {% block content %}
                 <h2><a id="home2" hreflang="es" href="{{ path ('index')}}">Home</a>-<a hreflang="es" type="text/html" href="{{ path('app_monsters')}}">Monstruos</a>-Joker</h2>
-                <br/><h1>Joker</h1><br/>
+                <br><h1>Joker</h1><br/>
                 
                 
-                <img class="adjunto" alt="Imagen del joker" src="{{ asset ('img/Joker.png')}}"/>
+                <img class="adjunto img-responsive" alt="Imagen del joker" src="{{ asset ('img/Joker.png')}}">
                 <!--HTML para crear una nueva imagen. Es la misma de arriba pero más grande-->
                 <div id="myModal" class="modal">
                     <span class="close">&times;</span>
-                    <img class="modal-content" id="img01">
+                    <img class="modal-content img-responsive" id="img01">
                     <div id="caption"></div>
                 </div>
 
