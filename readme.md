@@ -4,12 +4,6 @@
 ### 3- Hacer el formulario en symfony.
 
 
-### 4- Almacenar las preguntas del formulario. Lo envío con Ajax?
-
-
-### 5- Incluir un sistema de usuariores. Con algunos de ellos pudiendo editar la propia página. 
-
-
 ### 6- Modificar los contenidos para que estén actualizados y ver si puedo refactorizar algo (php o twig)
 
 
@@ -19,7 +13,7 @@
 ### 8- Documentar todo (el readme, los phps y html twigs)  
 
 
-### 9- Arreglar el problemas de las Cookies y el botón en /monstruos
+### 9- Arreglar los problemas de las Cookies y el botón en /monstruos
 
 
 
@@ -31,3 +25,5 @@
 
 
 ### 2- Poder saber distinguir entre el css de día y el de noche a través de las cookies.
+
+### 4- Almacenar las preguntas del formulario. Lo envío con Ajax.

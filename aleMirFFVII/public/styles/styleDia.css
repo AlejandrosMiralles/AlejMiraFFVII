@@ -122,6 +122,10 @@ content{
 
 }
 
+content input{
+    color: black;
+}
+
 content img.adjunto {
     float: right;
     display: block;
