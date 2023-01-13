@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Feedback manager{% endblock %}
+
+{% block content %}
+    <h1>Good morning Sir Admin!</h1>
+
+    <h3>Feedbacks</h3>
+    <ul>
+    {% for feedback in feedbacks %}
+        <li id="feedback{{ feedback.id }}">
+            <p>{{ feedback.content }}
+            <input id="remove{{ feedback.id }}" type="button" class="removeFeedback" value="Eliminar">
+            </p>
+        </li>
+    {% endfor %}
+    </ul>
+{% endblock %}
+
+{% block javascripts %}
+    <script src="{{ asset ('js/RemoveFeedback.js')}}"></script>
+{% endblock %}
