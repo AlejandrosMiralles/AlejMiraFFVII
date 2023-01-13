@@ -30,7 +30,7 @@ class MonstersController extends AbstractController
     }
 
     #[Route('/monstruos/ladron', name: 'app_monsters_ladron')]
-    public function ladrom(): Response{
+    public function ladron(): Response{
         return $this->render('monsters/ladron.html.twig', [
             'controller_name' => 'MonstersController',
         ]);

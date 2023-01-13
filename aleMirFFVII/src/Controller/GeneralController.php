@@ -41,10 +41,12 @@ class GeneralController extends AbstractController
             $entityManager->flush();
 
             $result = [ "result" => "Success"];
+            $responseStatus = Response::HTTP_OK ; 
         } catch (\Exception $e){
             $result = [ "result" => "Failure"];
+            $responseStatus = Response::HTTP_BAD_REQUEST;
         }
 
-        return new JsonResponse($result);
+        return new JsonResponse($result, $responseStatus);
     }
 }
