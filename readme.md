@@ -1,8 +1,6 @@
 #   COSAS POR TERMINAR/HACER
 
-### 1-  Incorporar la página al symfony
-### 3- Hacer el formulario en symfony.
-
+### 5- Hacer que se puedan ver las preguntas desde una página de admins. Y que desde ahí se puedan eliminar.
 
 ### 6- Modificar los contenidos para que estén actualizados y ver si puedo refactorizar algo (php o twig)
 
