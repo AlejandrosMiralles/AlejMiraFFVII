@@ -13,7 +13,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class AdminController extends AbstractController
 {
-    public function adminDashboard(){
+    public function adminDashboard(): Response{
         $this->denyAccessUnlessGranted('ROLE_ADMIN');
 
         // or add an optional message - seen by developers
@@ -25,6 +25,7 @@ class AdminController extends AbstractController
 
     #[Route('/admin/manageFeedback', name: 'manage_feedback')]
     public function manageFeedback(ManagerRegistry $doctrine): Response{
+
         $repository = $doctrine->getRepository(Feedback::class);
         $feedbacks = $repository->findAll();
         
