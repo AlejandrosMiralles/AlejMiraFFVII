@@ -5,6 +5,7 @@ namespace App\Controller;
 use App\Entity\Feedback;
 
 use Doctrine\Persistence\ManagerRegistry;
+use ErrorException;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
@@ -30,12 +31,18 @@ class GeneralController extends AbstractController
     }
 
     #[Route('/sendFeedback', name: 'sendFeedback')]
-    public function sendFeeback(ManagerRegistry $doctrine, Request $request): JsonResponse
-    {
+    public function sendFeeback(ManagerRegistry $doctrine, Request $request): JsonResponse{
+        $feedbackContent = $request->request->get("feedback");
+
         $feedback = new Feedback();
-        $feedback->setContent($request->request->get("feedback"));
+        $feedback->setContent($feedbackContent);
 
         try{
+            if (null == $feedbackContent ){
+                $errorMessage = "Feedback can not be null";
+                throw new ErrorException($errorMessage);
+            }
+
             $entityManager = $doctrine->getManager();
             $entityManager->persist($feedback);
             $entityManager->flush();
@@ -43,7 +50,9 @@ class GeneralController extends AbstractController
             $result = [ "result" => "Success"];
             $responseStatus = Response::HTTP_OK ; 
         } catch (\Exception $e){
-            $result = [ "result" => "Failure"];
+            $result = [ "result" => "Failure",
+                        "error" => $e->getMessage()
+            ];
             $responseStatus = Response::HTTP_BAD_REQUEST;
         }
 

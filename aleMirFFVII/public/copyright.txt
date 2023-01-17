@@ -1,0 +1,6 @@
+CabeceraFondo.jpg:
+    - Url a la imagen: https://www.flickr.com/photos/clf/44021925
+    - Licencia: https://creativecommons.org/licenses/by-nc-nd/2.0/
+
+
+http://portales.gva.es/access_restringit_ceice/acces_valencia.html?CAT=%5Bgames&RULE=%5BCat_prohibidas%20web&DATETIME=%5B17/1/2023&FILE=%5B&CODE=test&LANG=esp&optcheckwfsp=123456&URL=square-enix-games.com/es_XL/documents/materialusagepolicy&IP=172.21.27.10&USER=172.21.27.10

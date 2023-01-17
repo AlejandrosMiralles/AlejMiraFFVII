@@ -1,7 +1,5 @@
 #   COSAS POR TERMINAR/HACER
 
-### 7.1 - Validar el formulario desde php
-
 ### 7.2 - Investigar la legalidad de la página
 
 ### 8. - Arreglar paddings, css y hacer la página responsive.
@@ -34,5 +32,5 @@
 
 ### 6- Modificar los contenidos para que estén actualizados y ver si puedo refactorizar algo (php o twig)
 
-
+### 7.1 - Validar el formulario desde php
 ####    - Terminar sistema de usuarios (ahora NADIE puede entrar en admin por el rol de admin)
