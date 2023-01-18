@@ -1,11 +1,9 @@
 SquareEnix:
     - https://www.square-enix-games.com/es_ES/documents/final-fantasy-vii-material-usage-guidelines
-    - © 1997, 2019 SQUARE ENIX CO., LTD. All Rights Reserved.
-CHARACTER DESIGN: TETSUYA NOMURA
-LOGO ILLUSTRATION:© 1997 YOSHITAKA AMANO
 
 
 CabeceraFondo.jpg:
     - Url a la imagen: https://www.flickr.com/photos/clf/44021925
     - Licencia: https://creativecommons.org/licenses/by-nc-nd/2.0/
+
 
