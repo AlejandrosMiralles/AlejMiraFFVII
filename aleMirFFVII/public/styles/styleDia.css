@@ -1,3 +1,8 @@
+/** El css está ordenado por: definciones de variables, propiedades generales de la página, header, nav, content, footer y propiedades especificas
+*/
+
+
+/* Definición de variables */
 @font-face {
     font-family: Romance fatal seriff;
     src:url("../tipografia/romance\ fatal\ serif\ JC\ Fonts.ttf");
@@ -11,7 +16,7 @@
 
 
 
-
+/* Propiedades generales */
 * {
     font-family: "Romance fatal seriff";
 }
@@ -28,14 +33,13 @@ body {
     width: 78em;
 
     /*Fondo*/
-    background-color: rgb(1, 59, 63);
+    background-color: rgb(0, 57, 61);
 
     /*Bordes*/
     border-style: hidden;
 
     /*Letra*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1em;
     font-weight: 500;
 
     /*Texto*/
@@ -43,16 +47,51 @@ body {
     text-indent: 1.5em;
 }
 
+
+/* Header */
+header {
+    /*La cabecera.
+    Es simplemente una foto de la ciudad
+    de Midgar.*/
+
+    position: relative;
+    left: 8em;
+
+    width: 62em;
+    height: 11em;
+
+    background-image: url("public/img/CabeceraFondo.jpg");
+    background-repeat: no-repeat;
+
+    border-style: groove;
+
+    color: lavender;
+}
+
+header a {
+    /*Muestra los enlaces de forma normal*/
+    color: lavender;
+    text-decoration: none;
+}
+
+header h1 {
+    /*Bajo el título para que se pueda leer bien*/
+    padding-top: 3em;
+}
+
+
+
 nav{
     width: 50em;
     display: inline-block;
     text-align: center;
     height: 0em;
     position: relative;
-    bottom: 2em;
+    bottom: 0em;
+    padding-top: 2em;
 }
 
-#Boton_modo_noche {
+.Boton_modo_noche {
     position: relative;
     font-size: 5em;
 
@@ -66,7 +105,7 @@ nav{
 
 }
 
-#Boton_modo_noche a {
+.Boton_modo_noche a {
     margin: 1.5em 3.1em; 
     padding-left: 3em;
 
@@ -77,23 +116,27 @@ nav{
 }
 
 
-#Boton_modo_noche a:link, #Boton_modo_noche a:visited{
+.Boton_modo_noche a:link, .Boton_modo_noche a:visited{
     color: #e6346fe1;
     text-decoration: none;
 }
 
 
-#Boton_modo_noche a:hover, #Boton_modo_noche:hover{
+.Boton_modo_noche a:hover, .Boton_modo_noche:hover{
 
     color: #06aa0e;
     text-decoration: none;
 }
 
 
-#Boton_modo_noche:hover{
+.Boton_modo_noche:hover{
     border-style: outset;
 }
 
+
+
+
+/*Content */
 content{
     /*El contenido. 
     Entre el fondo y el contenido he intentado
@@ -189,7 +232,7 @@ content .close:hover, #content .close:focus {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
-  }
+}
 
 
 
@@ -211,36 +254,7 @@ content a:hover{
 }
 
 
-header {
-    /*La cabecera.
-    Es simplemente una foto de la ciudad
-    de Midgar.*/
-
-    position: relative;
-    left: 8em;
-
-    width: 62em;
-    height: 11em;
-
-    background-image: url("../img/CabeceraFondo4_FFVII.png");
-    background-repeat: no-repeat;
-
-    border-style: groove;
-
-    color: lavender;
-}
-
-header a {
-    /*Muestra los enlaces de forma normal*/
-    color: lavender;
-    text-decoration: none;
-}
-
-header h1 {
-    /*Bajo el título para que se pueda leer bien*/
-    padding-top: 3em;
-}
-
+/* Footer */
 footer{
     /*El pie de página. 
     Como es más trivial, lo he hecho
@@ -263,6 +277,11 @@ footer a{
     /*Muestra los enlaces del pie de página en morado*/
     color: #9f21a3;
 }
+
+
+
+
+/* Propiedades especificas */
 
 dl {
     /*Muestra la tabla como en el juego*/
