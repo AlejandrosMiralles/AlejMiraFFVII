@@ -3,6 +3,7 @@
 ### 7.2 - Investigar la legalidad de la página
 
 ### 8. - Arreglar paddings, css y hacer la página responsive.
+######    8.1 - Arreglar la imagen de la cabecera
 
 ### 9. - Ampliar contenidos
 

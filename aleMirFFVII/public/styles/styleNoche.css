@@ -14,31 +14,43 @@ body {
 
 
 
-.Boton_modo_día {
-    position: absolute;
-    left:1em;
 
-    width: 5em;
 
-    border-style: outset;
-    border-color: rgb(5, 5, 5);
-    
-    
-    background: transparent url(../Imagenes/RedDiaSinFondo.2_preview_rev_1.png) no-repeat left center;
-}
-
-.Boton_modo_día a{
+.Boton_modo_dia a{
     margin: 1em 0; 
-    float: left; 
-    clear: left;
 }
 
-.Boton_modo_día a:link, .Boton_modo_día a:visited{
+
+.Boton_modo_dia {
+    position: relative;
+    font-size: 5em;
+
+    width: 10em;
+    
+    /* 43 x 57 */
+    background: transparent url(../img/RedNocheSinFondoChico.jpg) no-repeat left center;
+    background-size: 1.33em 1em;
+
+    color: white;
+
+}
+
+.Boton_modo_dia a {
+    margin: 1.5em 3.1em; 
+    padding-left: 3em;
+
+
+    display: inline;
+    margin: 0em;
+    text-align: right;
+}
+
+.Boton_modo_dia a:link, .Boton_modo_dia a:visited{
     color: white;
     text-decoration: none;
 }
 
-.Boton_modo_día a:hover, .Boton_modo_día:hover{
+.Boton_modo_dia a:hover, .Boton_modo_dia:hover{
     border-color: #3e6157;
 
     color: rgb(168, 168, 168);
