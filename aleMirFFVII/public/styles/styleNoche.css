@@ -57,6 +57,9 @@ body {
     text-decoration: none;
 }
 
+.Boton_modo_dia:hover{
+    border-style: outset;
+}
 
 
 
