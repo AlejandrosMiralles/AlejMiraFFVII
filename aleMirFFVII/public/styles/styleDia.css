@@ -16,80 +16,16 @@
 
 
 
-/* Propiedades generales */
-* {
-    font-family: "Romance fatal seriff";
-}
 
-h1,h2,h3,h4, h5,h6{
-    font-family: "OldeEnglish";
-}
-
+/* Body */
 body {
-    /*El cuerpo. 
-    Estos valores se aplicarán a TODAS las páginas*/
-
-    /*Tamaño*/
-    width: 78em;
-
     /*Fondo*/
     background-color: rgb(0, 57, 61);
-
-    /*Bordes*/
-    border-style: hidden;
-
-    /*Letra*/
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 500;
-
-    /*Texto*/
-    text-align: center;
-    text-indent: 1.5em;
-}
-
-
-/* Header */
-header {
-    /*La cabecera.
-    Es simplemente una foto de la ciudad
-    de Midgar.*/
-
-    position: relative;
-    left: 8em;
-
-    width: 62em;
-    height: 11em;
-
-    background-image: url("public/img/CabeceraFondo.jpg");
-    background-repeat: no-repeat;
-
-    border-style: groove;
-
-    color: lavender;
-}
-
-header a {
-    /*Muestra los enlaces de forma normal*/
-    color: lavender;
-    text-decoration: none;
-}
-
-header h1 {
-    /*Bajo el título para que se pueda leer bien*/
-    padding-top: 3em;
 }
 
 
 
-nav{
-    width: 50em;
-    display: inline-block;
-    text-align: center;
-    height: 0em;
-    position: relative;
-    bottom: 0em;
-    padding-top: 2em;
-}
+
 
 .Boton_modo_noche {
     position: relative;
@@ -136,135 +72,40 @@ nav{
 
 
 
+
+
+
 /*Content */
 content{
-    /*El contenido. 
-    Entre el fondo y el contenido he intentado
-    conseguir un "efecto FFVII".*/
-
-    display: inline-block;
-    position: relative;
-    top: 3em;
-    left: 0em;
-
-    overflow: hidden;
-
-    padding: 2em;
-
-    width: 50em;
-
     border-style: solid;
     border-color: #adadad;
     border-width: 0.25em;
 
     background-color: #4401ff;
 
-
-
     color: #ffffff;
-
 }
 
 content input{
     color: black;
 }
 
-content img.adjunto {
-    float: right;
-    display: block;
-    padding-left: 1em;
-    padding-right: 0.5em;
-    padding-bottom: 3em;
-
-}
-
-content img.adjunto:hover{
-    opacity: 0.7;
-}
-
-/** CSS para hacer más grandes las imagenes al clickar en ellas */
-
-content .modal{
-    /* The Modal (background) */
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-}
-
-content .modal-content{
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-}
-
-content #caption{
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
-}
-
-/* The Close Button */
-content .close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-  
-content .close:hover, #content .close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-}
 
 
 
 
 
-content a:link{
+content a:link, content a:visited{
     color: #ffffff;
-    text-decoration: none;
 }
 
-content a:visited{
-    color: #ffffff;
-    text-decoration: none;
-}
 content a:hover{
-    
     color: #ff04ff;
-    text-decoration:dashed;
 }
 
 
 /* Footer */
 footer{
-    /*El pie de página. 
-    Como es más trivial, lo he hecho
-    más oscuro (se camufla más con el fondo)*/
-    
-    position: relative;
-    top: 5em;
-    left: 8em;
-    width: 62em;
-
     background-color: #8bc5c5;
 
     border-style: outset;
@@ -289,52 +130,12 @@ dl {
     color: #ffffff;
 }
 
-ul{
-    list-style: none;
-}
 
-#gameplay, #historia, #informacionAdicional {
-    /*Muestra los muchos textos como texto normal, de izquierda a derecha*/
-    text-align: left;
-}
 
-#Lista_de_Monstruos ul{
-    /*Entre esta y la próxima declaración se hace que la lista de los monstruos se vea sin puntos, 
-    ordenada de izquierda a derecha y con espacios entre sí.*/
-    list-style: none;
-    overflow: hidden;
-}
-
-#Lista_de_Monstruos ul li{
-    float: left;
-    width: 20em;
-    height: 25em;
-}
-
-ul#categorias{
-    position: relative;
-    left: 4em;
-}
-
-ul#categorias li{
-    float: left;
-    width: 10em;
-    height: 10em;
-}
-
-ul#categorias li input{
-    float: left;
-    width: 7em;
-    height: 3em;
-}
 
 table {
     /*Todas las tablas son del nivel de los monstruos respecto a sus atributos*/
     display: inline;
-
-    border-collapse: separate;
-    border-spacing: 0.5em;
-
     
     margin-top: 5em;
 }

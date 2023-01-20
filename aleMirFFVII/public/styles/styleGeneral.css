@@ -1,0 +1,240 @@
+
+
+
+
+/* Propiedades generales */
+* {
+    font-family: "Romance fatal seriff";
+}
+
+h1,h2,h3,h4, h5,h6{
+    font-family: "OldeEnglish";
+}
+
+
+
+/* Body */
+body{
+    /*Tamaño*/
+    width: 78em;
+
+
+    /*Bordes*/
+    border-style: hidden;
+
+
+    /*Letra*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+
+
+    /*Texto*/
+    text-align: center;
+    text-indent: 1.5em;
+}
+
+
+
+
+
+/* Header */
+header {
+    /*La cabecera.
+    Es simplemente una foto de la ciudad
+    de Midgar.*/
+
+    position: relative;
+    left: 8em;
+
+    width: 62em;
+    height: 11em;
+
+    background-image: url("../Imagenes/CabeceraFondo.jpg");
+    background-repeat: no-repeat;
+
+    border-style: groove;
+
+    color: lavender;
+}
+
+header a {
+    /*Muestra los enlaces de forma normal*/
+    color: lavender;
+    text-decoration: none;
+}
+
+header h1 {
+    /*Bajo el título para que se pueda leer bien*/
+    padding-top: 3em;
+}
+
+
+
+
+
+
+
+/* Nav */
+nav{
+    width: 50em;
+    display: inline-block;
+    text-align: center;
+    height: 0em;
+    position: relative;
+    bottom: 0em;
+    padding-top: 2em;
+}
+
+
+
+
+
+
+/* Content */
+
+content{
+    display: inline-block;
+    position: relative;
+    top: 3em;
+    left: 0em;
+
+    overflow: hidden;
+
+    padding: 2em;
+
+    width: 50em;
+
+
+}
+
+content a:visited, content a:link{
+    text-decoration: none;
+}
+content a:hover{
+    text-decoration:dashed;
+}
+
+
+
+
+
+content img.adjunto {
+    float: right;
+    display: block;
+    padding-left: 1em;
+    padding-right: 0.5em;
+    padding-bottom: 3em;
+
+}
+
+content img.adjunto:hover{
+    opacity: 0.7;
+}
+
+/** CSS para hacer más grandes las imagenes al clickar en ellas */
+
+content .modal{
+    /* The Modal (background) */
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+content .modal-content{
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+content #caption{
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* The Close Button */
+content .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+  
+content .close:hover, #content .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* Footer */
+footer{
+    position: relative;
+    top: 5em;
+    left: 8em;
+    width: 62em;
+}
+
+
+
+
+/* Propiedades especificas */
+ul{
+    list-style: none;
+}
+
+
+
+#gameplay, #historia, #informacionAdicional {
+    /*Muestra las grandes cantidades de texto como texto normal, de izquierda a derecha*/
+    text-align: left;
+}
+
+#Lista_de_Monstruos ul{
+    /*Entre esta y la próxima declaración se hace que la lista de los monstruos se vea sin puntos, 
+    ordenada de izquierda a derecha y con espacios entre sí.*/
+
+    list-style: none;
+    overflow: hidden;
+}
+
+#Lista_de_Monstruos ul li{
+    float: left;
+}
+
+#Lista_de_Monstruos ul#categorias{
+    width: 3em;
+    height: 3em;
+}
+
+#Lista_de_Monstruos ul#monstruosIndexados li{
+    width: 20em;
+    height: 25em;
+}
+
+
+table{
+    border-collapse: separate;
+    border-spacing: 0.5em;
+}
