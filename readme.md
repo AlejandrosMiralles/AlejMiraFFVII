@@ -2,9 +2,6 @@
 
 ### 7.2 - Investigar la legalidad de la página
 
-### 8. - Arreglar paddings, css y hacer la página responsive.
-######    8.1 - Arreglar la imagen de la cabecera
-
 ### 9. - Ampliar contenidos
 
 ### 10- Terminar de hacer el TODO list
@@ -35,3 +32,6 @@
 
 ### 7.1 - Validar el formulario desde php
 ####    - Terminar sistema de usuarios (ahora NADIE puede entrar en admin por el rol de admin)
+
+### 8. - Arreglar paddings y css.
+######    8.1 - Arreglar la imagen de la cabecera

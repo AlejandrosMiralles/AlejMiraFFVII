@@ -44,13 +44,14 @@ header {
     de Midgar.*/
 
     position: relative;
-    left: 8em;
+    left: 10em;
 
     width: 62em;
     height: 11em;
 
-    background-image: url("../img/CabeceraFondo.jpg");
+    background-image: url("../img/CabeceraFondo\(1\).jpg");
     background-repeat: no-repeat;
+    background-size: 62em 11em;
 
     border-style: groove;
 
@@ -192,7 +193,7 @@ content .close:hover, #content .close:focus {
 footer{
     position: relative;
     top: 5em;
-    left: 8em;
+    left: 10em;
     width: 62em;
 }
 
