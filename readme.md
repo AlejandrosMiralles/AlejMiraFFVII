@@ -1,8 +1,8 @@
 #   COSAS POR TERMINAR/HACER
 
 ### 7.2 - Investigar la legalidad de la página
+### 7.3 Arreglar todas las imágenes.
 
-### 9. - Ampliar contenidos
 
 ### 10- Terminar de hacer el TODO list
 
@@ -35,3 +35,5 @@
 
 ### 8. - Arreglar paddings y css.
 ######    8.1 - Arreglar la imagen de la cabecera
+
+### 9. - Ampliar contenidos
