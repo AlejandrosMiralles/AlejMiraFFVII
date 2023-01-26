@@ -14,7 +14,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class GeneralController extends AbstractController
 {
-    #[Route('/', name: 'index')]
+    #[Route('/', name: 'app_index')]
     public function index(): Response
     {
         return $this->render('general/index.html.twig', [
@@ -22,7 +22,7 @@ class GeneralController extends AbstractController
         ]);
     }
 
-    #[Route('/informacionJuego', name: 'generalInfo')]
+    #[Route('/informacionJuego', name: 'app_generalInfo')]
     public function generalInfo(): Response
     {
         return $this->render('general/generalInfo.html.twig', [
@@ -30,7 +30,7 @@ class GeneralController extends AbstractController
         ]);
     }
 
-    #[Route('/sendFeedback', name: 'sendFeedback')]
+    #[Route('/sendFeedback', name: 'app_sendFeedback')]
     public function sendFeeback(ManagerRegistry $doctrine, Request $request): JsonResponse{
         $feedbackContent = $request->request->get("feedback");
 

@@ -23,7 +23,7 @@ class AdminController extends AbstractController
     }
 
 
-    #[Route('/admin/manageFeedback', name: 'manage_feedback')]
+    #[Route('/admin/manageFeedback', name: 'app_manage_feedback')]
     public function manageFeedback(ManagerRegistry $doctrine): Response{
 
         $repository = $doctrine->getRepository(Feedback::class);
@@ -36,7 +36,7 @@ class AdminController extends AbstractController
     }
 
 
-    #[Route('/admin/deleteFeedback', name: 'delete_feedback')]
+    #[Route('/admin/deleteFeedback', name: 'app_delete_feedback')]
     public function deleteFeedback(ManagerRegistry $doctrine, Request $request): JsonResponse{
         $id = $request->request->get("id");
         $repository = $doctrine->getRepository(Feedback::class);
