@@ -2,15 +2,11 @@
 
 ### 7.2 - Investigar la legalidad de la página
 ### 7.3 Arreglar todas las imágenes.
-### 7.4 Arreglar el enlace del nav, eliminando los p
 
 ### 10- Terminar de hacer el TODO list
 
 
 ### 11- Documentar todo (el readme, los phps y html twigs)  
-
-
-### 12- Arreglar los problemas de las Cookies y el botón en /monstruos
 
 
 ### 13 - Implementar la página en una web (000wwebhost)

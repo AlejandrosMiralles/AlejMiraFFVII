@@ -8,8 +8,6 @@ $(document).ready( function(){
     function sendFeedbackEvent(){
         parameters = "feedback=" + $("#feedback").val();
 
-        console.log(parameters);
-    
         url="/sendFeedback"
     
         $.post(url, parameters, function(){
@@ -31,7 +29,7 @@ $(document).ready( function(){
     }
 
     function resetForm(event){
-        $("#feedbackForm").trigger("trigger");
+        $("#feedbackForm").trigger("reset");
     }
 
     $("#resetForm").on("click", resetForm);
