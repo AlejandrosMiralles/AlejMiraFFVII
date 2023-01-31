@@ -2,7 +2,7 @@
 
 ### 7.2 - Investigar la legalidad de la página
 ### 7.3 Arreglar todas las imágenes.
-
+### 7.4 Arreglar el enlace del nav, eliminando los p
 
 ### 10- Terminar de hacer el TODO list
 

@@ -117,6 +117,10 @@ content a:hover{
 
 
 
+content input{
+    color: black;
+}
+
 
 
 content img.adjunto {
