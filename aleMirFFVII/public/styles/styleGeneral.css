@@ -1,4 +1,14 @@
 
+/* Definición de variables */
+@font-face {
+    font-family: Romance fatal seriff;
+    src:url("./tipografia/romance\ fatal\ serif\ JC\ Fonts.ttf");
+}
+
+@font-face {
+    font-family: OldeEnglish;
+    src:url("./tipografia/OldeEnglish.ttf");
+}
 
 
 
@@ -242,4 +252,9 @@ ul{
 table{
     border-collapse: separate;
     border-spacing: 0.5em;
+
+    /*Todas las tablas son del nivel de los monstruos respecto a sus atributos*/
+    display: inline;
+    
+    margin-top: 5em;
 }
