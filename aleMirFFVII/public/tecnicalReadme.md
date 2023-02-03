@@ -53,8 +53,10 @@ A continuación voy a especificar las características de la web:
 
     Para facilitar el manejo de feedbacks al dueño de la web, se ha permitido que desde la página del administrador se puedan eliminar.
 
+- **Plugin y widget**
+        El plugin es un plugin casero creado por mi que permite la desaparición de elementos. Es utilizado por el script "RemoveFeedback" y por tanto se utiliza en "/admin/manageFeedback". El script sigue las normas de creación de plugins y se encuentra localizado en "/js/pluggins/".
 
-
+        El widget es un widget implementado en "infogeneral" que permite recoger sus diferentes secciones, formando un gran acordeon. 
 
 
 # Php

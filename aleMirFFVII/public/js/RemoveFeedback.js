@@ -8,7 +8,7 @@ $(document).ready(function(){
         id = event.target.id.slice(6);
 
         $.post("/admin/deleteFeedback", `id=${ id }`, function(){
-            $(`#feedback${ id }`).css("display", "none");
+            $(`#feedback${ id }`).displayNone();
         });
     }
 
