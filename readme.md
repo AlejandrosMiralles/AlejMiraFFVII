@@ -3,9 +3,6 @@
 ### 7.2 - Investigar la legalidad de la página
 ### 7.3 Arreglar todas las imágenes.
 
-### 10- Terminar de hacer el TODO list
-
-
 ### 11- Documentar todo (el readme, los phps y html twigs)  
 
 
@@ -33,3 +30,5 @@
 ######    8.1 - Arreglar la imagen de la cabecera
 
 ### 9. - Ampliar contenidos
+
+### 10- Terminar de hacer el TODO list
