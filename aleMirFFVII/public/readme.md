@@ -26,9 +26,7 @@ A la capa de admin no se puede acceder desde la capa de usuario promedio. Para a
 
     . "/admin/logout": Página para cerrar la sesión. A diferencia de "/admin/login" y "/admin/register", en esta página puede acceder cualquier usuario que tenga una sesión activa.
 
-COMPROBAR SI SE PUEDE ACCEDER A LOGOUT CON UN USUARIO ADMIN
-
-    . "/admin/manageFeedback":
+    . "/admin/manageFeedback": Página para poder ver y eliminar los feedbacks envíados. Únicamente los usuarios con role de admin pueden acceder a esta página.
 
 
 # Estructura interna

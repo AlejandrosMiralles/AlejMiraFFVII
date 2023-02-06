@@ -1,7 +1,7 @@
 #   COSAS POR TERMINAR/HACER
 
 ### 7.2 - Investigar la legalidad de la página
-### 7.3 Arreglar todas las imágenes.
+### 7.3 Arreglar todas las imágenes (Solo me falta incluir imágenes para el cambio de día y noche).
 
 ### 11- Documentar todo (el readme, los phps y html twigs)  
 
