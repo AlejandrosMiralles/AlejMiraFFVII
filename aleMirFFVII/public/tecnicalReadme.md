@@ -137,6 +137,9 @@ A continuación voy a especificar las características de la web:
         Para evitar posibles robos de contenido a mi página se ha creado una licencia en Creative Commons, la cual se ha introducido al pie de la página. 
         La creado para que aunque se puedan cambiar los contenidos y compartir, siempre se deba mencionar el material original y distribuir con la misma licencia.
 
+- **Edición de imágenes**
+        df
 
 - **Imágenes legales**:  
         :,(
+
