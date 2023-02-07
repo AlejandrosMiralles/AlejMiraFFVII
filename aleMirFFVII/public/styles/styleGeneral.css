@@ -19,6 +19,8 @@
 
 h1,h2,h3,h4, h5,h6{
     font-family: "OldeEnglish";
+
+    font-size: 4em;
 }
 
 
@@ -59,7 +61,7 @@ header {
     width: 62em;
     height: 11em;
 
-    background-image: url("../img/CabeceraFondo\(1\).jpg");
+    background-image: url("../img/CabeceraFondo.jpg");
     background-repeat: no-repeat;
     background-size: 62em 11em;
 
@@ -96,7 +98,21 @@ nav{
     padding-top: 2em;
 }
 
+nav .Boton_modo_noche, nav .Boton_modo_dia{
+    position: relative;
+    font-size: 5em;
 
+    width: 10em;
+    
+    /* 43 x 57 */
+    background: transparent url(../img/PadreDeNakiri.png) no-repeat left center;
+    /*background-size: 1.33em 1em;*/
+    background-size: 1.9019em 1.43em;
+
+
+    color: white;
+
+}
 
 
 

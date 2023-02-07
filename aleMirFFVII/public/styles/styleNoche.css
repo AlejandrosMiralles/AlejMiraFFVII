@@ -15,21 +15,6 @@ body {
     margin: 1em 0; 
 }
 
-
-.Boton_modo_dia {
-    position: relative;
-    font-size: 5em;
-
-    width: 10em;
-    
-    /* 43 x 57 */
-    background: transparent url(../img/RedNocheSinFondoChico.jpg) no-repeat left center;
-    background-size: 1.33em 1em;
-
-    color: white;
-
-}
-
 .Boton_modo_dia a {
     margin: 1.5em 3.1em; 
     padding-left: 3em;

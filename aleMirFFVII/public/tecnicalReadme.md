@@ -2,12 +2,14 @@
 ## Proyecto final: página web propia
 ### 2nDAW
 
-Esta página no está terminada, faltan por implementar muchas cosas: un correcto padding, hacer que la web sea responsiva, juntar el modo día y modo noche, tratar el feedback del formulario y un largo etcetera. Sin embargo, dado los plazos de entrega me veo en la obligación de entregar está página a medio hacer, pues el javascript sí que está completo.  
+A continuación voy a especificar las características de la web. Estas están divididas en: Cliente, Servidor y Diseño. 
+En Cliente habla sobre la programación que se ejecuta desde el lado del cliente, desde el navegador. Está unicamente formado por ficheros javascripts y que se encuentran en la carpeta /public/javascript/. 
+En Servidor cuenta como funciona la página desde el lado del servidor. Qué framework utiliza, la estructura de la base de datos, el enrutamiento, etc.
+Y en Diseño se informa de todas las decisiones de diseño que se tomaron al realizar la página: CSS, biblioteca utilizada, información sobre el uso de las imágenes, etc.
 
+Si desea conocer un contenido más general de la página (las páginas que existen, estructura interna del servidor, etc.) lea el fichero "readme.md".
 
-A continuación voy a especificar las características de la web:
-
-# Javascript
+# Cliente
 
 - **SendForm.js**:  
 
@@ -54,16 +56,14 @@ A continuación voy a especificar las características de la web:
     Para facilitar el manejo de feedbacks al dueño de la web, se ha permitido que desde la página del administrador se puedan eliminar.
 
 - **Plugin y widget**
-        El plugin es un plugin casero creado por mi que permite la desaparición de elementos. Es utilizado por el script "RemoveFeedback" y por tanto se utiliza en "/admin/manageFeedback". El script sigue las normas de creación de plugins y se encuentra localizado en "/js/pluggins/".
-
+        El plugin es un plugin casero creado por mi que permite la desaparición de elementos. Es utilizado por el script "RemoveFeedback" y por tanto se utiliza en "/admin/manageFeedback". El script sigue las normas de creación de plugins y se encuentra localizado en "/js/pluggins/".  
         El widget es un widget implementado en "infogeneral" que permite recoger sus diferentes secciones, formando un gran acordeon. 
 
 
-# Php
+# Servidor
 
 - **Symfony**:  
-        Para facilitar la creación, depuración y refactorización del sitio web se ha utilizado e implementado el framework symfony. El enrutamiento, posible uso de las plantillas html, sencilla conexión a base de datos son muchas de las razones por las que he optado en usar esta framework.
-        
+        Para facilitar la creación, depuración y refactorización del sitio web se ha utilizado e implementado el framework symfony. El enrutamiento, posible uso de las plantillas html, sencilla conexión a base de datos son muchas de las razones por las que he optado en usar esta framework.  
         La base de datos consiste en una única entidad, Feedback, que guarda las propuestas de los internautas para mejorar el sitio web.
 
 
@@ -100,11 +100,11 @@ A continuación voy a especificar las características de la web:
 
 
 - **CSS**:  
-        He aplicado mis conomientos de css y me he permitido la creación de dos CSS disitntos, uno de noche y otro de día. Los dos tienen como objetivo parecerse a la interfaz gráfica del juego.
+        He aplicado mis conomientos de css y me he permitido la creación de dos CSS distintos, uno de noche y otro de día. Los dos tienen como objetivo parecerse a la interfaz gráfica del juego.
       
 
 - **Html semántico(nav, sidebar,etc.)**:  
-        Para facilitar la posterior refactorizar y actualizarse con la sintáxis del HTML5, se ha hecho que la página sea semántica. No hay ningún elemento '<div id="header">', sino '<header>'. 
+        Para facilitar la posterior refactorizar y actualizarse con la sintáxis del HTML5, se ha hecho que la página sea semántica. No hay ningún elemento 'div id="header" ', sino "header". 
 
 
 - **Uso de bootstrap**:  
@@ -112,8 +112,7 @@ A continuación voy a especificar las características de la web:
 
 
 - **Colores, ruta visual, etc.**:  
-        Debido a los colores y la colocación de los elementos, la ruta visual del "/"(index) provoca que el usuario termine mirando la imagen cortada de "Información general" y esté tentado a scrollear abajo. Este mismo fenomeno también sucede en "/monstruos" y todas las páginas de monstruos. 
-
+        Debido a los colores y la colocación de los elementos, la ruta visual del "/"(index) provoca que el usuario termine mirando la imagen cortada de "Información general" y esté tentado a scrollear abajo. Este mismo fenomeno también sucede en "/monstruos" y todas las páginas de monstruos.  
         Además para evitar que la página se encuentre desbalanceada se ha hecho que la cabecera y el pie de página, que ocupan el mismo espacio, sean más grandes que el nav y el cuerpo de la página. Formando como resultando una gran "I".
 
 
@@ -138,8 +137,10 @@ A continuación voy a especificar las características de la web:
         La creado para que aunque se puedan cambiar los contenidos y compartir, siempre se deba mencionar el material original y distribuir con la misma licencia.
 
 - **Edición de imágenes**
-        df
+        Las imágenes de internet son muy convenientes, pero no siempre tendremos la suerte de encontrar una imagen perfecta para todas las situaciones. En esos casos podría ser interesante crear o editar una imagen.
+        Por ejemplo la imagen de los monstruos de la página principal es una imagen editada. Se cogió una imagen de internet (Se puede acceder a ella a través del footer) y de ellas se crearon otras dos imágenes iguales y se juntaron. Posteriormente se eliminó el fondo y como resultado se consiguió una imagen perfecta.
 
 - **Imágenes legales**:  
-        :,(
+        Se ha intentado que la página sea lo más legal posible. Para ello se ha investigado la política de SquareEnix respecto a las creaciones de fans del Final Fantasy VII fuera de Japón y se ha intentado que todas las imágenes de la página estén licenciadas en CC o sean del juego original.
+        En la mayoría de casos he tenido que proporcionar un link a la imagen y a su respectiva licencia en el footer de cada página.
 

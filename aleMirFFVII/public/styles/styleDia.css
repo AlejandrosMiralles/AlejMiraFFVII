@@ -17,19 +17,7 @@ body {
 
 
 
-.Boton_modo_noche {
-    position: relative;
-    font-size: 5em;
 
-    width: 10em;
-    
-    /* 43 x 57 */
-    background: transparent url(../img/RedNocheSinFondoChico.jpg) no-repeat left center;
-    background-size: 1.33em 1em;
-
-    color: white;
-
-}
 
 .Boton_modo_noche a {
     margin: 1.5em 3.1em; 
@@ -70,7 +58,13 @@ content{
     border-color: #adadad;
     border-width: 0.25em;
 
+    /*
     background-color: #4401ff;
+*/
+background: rgb(2,0,36);
+background: linear-gradient(344deg, rgba(2,0,36,1) 0%, rgba(68,1,255,1) 43%, rgba(37,1,255,0.8589636538209033) 100%); 
+
+
 
     color: #ffffff;
 }
