@@ -1,7 +1,5 @@
 #   COSAS POR TERMINAR/HACER
 
-
-
 ### 13 - Implementar la página en una web (000wwebhost)
 
 
