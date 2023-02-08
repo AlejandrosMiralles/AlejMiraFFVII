@@ -1,9 +1,5 @@
 #   COSAS POR TERMINAR/HACER
 
-### 7.2 - Investigar la legalidad de la página
-### 7.3 Arreglar todas las imágenes (Solo me falta incluir imágenes para el cambio de día y noche).
-
-### 11- Documentar todo (el readme, los phps y html twigs)  
 
 
 ### 13 - Implementar la página en una web (000wwebhost)
@@ -23,6 +19,7 @@
 
 ### 6- Modificar los contenidos para que estén actualizados y ver si puedo refactorizar algo (php o twig)
 
+
 ### 7.1 - Validar el formulario desde php
 ####    - Terminar sistema de usuarios (ahora NADIE puede entrar en admin por el rol de admin)
 
@@ -31,4 +28,9 @@
 
 ### 9. - Ampliar contenidos
 
-### 10- Terminar de hacer el TODO list
+### 10 - Investigar la legalidad de la página
+### 10.1 Arreglar todas las imágenes (Solo me falta incluir imágenes para el cambio de día y noche).
+
+### 11- Terminar de hacer el TODO list
+
+### 12- Documentar todo (el readme, los phps y html twigs)  

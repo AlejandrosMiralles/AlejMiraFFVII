@@ -17,7 +17,7 @@ El sitio web se divide en 2 capas: la capa de usuario promedio y la capa de admi
 La capa de usuario está compuesta por: "/", "/informacionJuego", "/monstruos", "/monstruos/soldadoRaso", "/monstruos/joker", "/monstruos/ladron", "/monstruos/serpienteKalm". 
     . "/": Es la página de inicio. Desde ahí se puede llegar a "/informacionJuego" y "/monstruos". Desde todas las página del sitio web se pueden acceder a aquí clickando en la imagen del header. 
 
-    . "/informacionJuego": Contiene toda la información más importantes del juego. Historia, contexto del juego, etc.
+    . "/informacionJuego": Contiene toda la información más importantes del juego. Historia, contexto del juego, etc. Se ha utilizado un acordeon para hacer la página más bonita. Si quiere leer un contenido, clicke en su respectivo título.
 
     . "/monstruos": Página que enlaza a todas las páginas de monstruos. Contiene algunos botones para mostrar únicamente las páginas de los monstruos de la categoría seleccionada.
 
