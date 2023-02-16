@@ -257,6 +257,11 @@ ul{
 #Lista_de_Monstruos ul#categorias{
     width: 3em;
     height: 3em;
+
+    overflow: unset;
+    display: inline-flex;
+    position: relative;
+    right: 12em;
 }
 
 #Lista_de_Monstruos ul#monstruosIndexados li{

@@ -2,8 +2,6 @@
 
 ### 13 - Implementar la página en una web (000wwebhost)
 
-
-
 # Cosas terminadas
 
 ### 1- Arreglar los problemas de los commits
