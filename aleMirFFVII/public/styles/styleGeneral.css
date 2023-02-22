@@ -1,3 +1,13 @@
+/** Este css está ordenado por: 
+
+        - Definición de variables
+        - Propiedades generales de la página
+        - Body
+        - Nav
+        - Content
+        - Footer
+        - Propiedades especificas
+*/
 
 /* Definición de variables */
 @font-face {
@@ -12,7 +22,7 @@
 
 
 
-/* Propiedades generales */
+/* Propiedades generales de la página */
 * {
     font-family: "Romance fatal seriff";
 }
@@ -46,9 +56,6 @@ body{
 }
 
 
-
-
-
 /* Header */
 header {
     /*La cabecera.
@@ -80,11 +87,6 @@ header h1 {
     /*Bajo el título para que se pueda leer bien*/
     padding-top: 3em;
 }
-
-
-
-
-
 
 
 /* Nav */
@@ -142,12 +144,9 @@ content a:hover{
 }
 
 
-
 content input{
     color: black;
 }
-
-
 
 content img.adjunto {
     float: right;

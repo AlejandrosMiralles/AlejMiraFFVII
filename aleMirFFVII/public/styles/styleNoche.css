@@ -1,4 +1,9 @@
-/** El css está ordenado por: definciones de variables, propiedades generales de la página, header, nav, content, footer y propiedades especificas
+/** Este css está ordenado por: 
+        - Body
+        - Nav
+        - Content
+        - Footer
+        - Propiedades especificas
 */
 
 /* Body */
@@ -7,9 +12,7 @@ body {
     background-color: black;
 }
 
-
-
-
+/* Nav */
 
 .Boton_modo_dia a{
     margin: 1em 0; 
@@ -64,7 +67,7 @@ content a:hover{
 
 
 
-
+/* Footer */
 footer{
     background-color: #0d1a1a;
 
@@ -78,6 +81,9 @@ footer a{
     /*Muestra los enlaces del pie de página en morado*/
     color: #9f21a3;
 }
+
+
+/* Propiedades especificas */
 
 dl {
     /*Muestra la tabla como en el juego*/

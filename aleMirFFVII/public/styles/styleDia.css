@@ -1,10 +1,10 @@
-/** El css está ordenado por: definciones de variables, propiedades generales de la página, header, nav, content, footer y propiedades especificas
+/** Este css está ordenado por: 
+        - Body
+        - Nav
+        - Content
+        - Footer
+        - Propiedades especificas
 */
-
-
-
-
-
 
 
 /* Body */
@@ -13,12 +13,7 @@ body {
     background-color: rgb(0, 57, 61);
 }
 
-
-
-
-
-
-
+/* Nav */
 .Boton_modo_noche a {
     margin: 1.5em 3.1em; 
     padding-left: 3em;
@@ -48,32 +43,17 @@ body {
 
 
 
-
-
-
-
 /*Content */
 content{
     border-style: solid;
     border-color: #adadad;
     border-width: 0.25em;
 
-    /*
-    background-color: #4401ff;
-*/
-background: rgb(2,0,36);
-background: linear-gradient(344deg, rgba(2,0,36,1) 0%, rgba(68,1,255,1) 43%, rgba(37,1,255,0.8589636538209033) 100%); 
-
-
+    background: rgb(2,0,36);
+    background: linear-gradient(344deg, rgba(2,0,36,1) 0%, rgba(68,1,255,1) 43%, rgba(37,1,255,0.8589636538209033) 100%); 
 
     color: #ffffff;
 }
-
-
-
-
-
-
 
 content a:link, content a:visited{
     color: #ffffff;

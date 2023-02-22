@@ -99,8 +99,10 @@ Si desea conocer un contenido más general de la página (las páginas que exist
         El estilo diurno en cambio incorpora un fondo verde azulado. El cuerpo tiene un fondo azul tirando a moradoy una letra de color blanca, resultando en un interfaz muy similar a la del menú del juego original. 
 
 
-- **CSS**:  
-        He aplicado mis conomientos de css y me he permitido la creación de dos CSS distintos, uno de noche y otro de día. Los dos tienen como objetivo parecerse a la interfaz gráfica del juego.
+- **CSS y diseño**:  
+        He aplicado mis conomientos de css y me he permitido la creación de dos CSS distintos, uno de noche y otro de día. Los dos tienen como objetivo parecerse a la interfaz gráfica del juego.  
+        El diseño del estilo del modo día se ha creado para recordar la apariencia del menú del juego. En cambio el diseño del estilo del modo noche se hizo para rememorar los colores más característicos del juego, los cuales se pueden ver en su logo.  
+        Los dos CSS compartían algunas definiciones, como el tipo de letra o la disposición de los elementos, por lo que se ha creado un tercer CSS para no ser redundantes con el código.
       
 
 - **Html semántico(nav, sidebar,etc.)**:  
@@ -111,7 +113,7 @@ Si desea conocer un contenido más general de la página (las páginas que exist
         Para facilitar la refactorización y depuración, se ha implementado la famosa biblioteca de bootstrap a la página. Esta simplifica las tareas de colacación de elementos y otorga una nueva sintaxis a la página, entre otras cosa. 
 
 
-- **Colores, ruta visual, etc.**:  
+- **Ruta visual y equilibrio**:  
         Debido a los colores y la colocación de los elementos, la ruta visual del "/"(index) provoca que el usuario termine mirando la imagen cortada de "Información general" y esté tentado a scrollear abajo. Este mismo fenomeno también sucede en "/monstruos" y todas las páginas de monstruos.  
         Además para evitar que la página se encuentre desbalanceada se ha hecho que la cabecera y el pie de página, que ocupan el mismo espacio, sean más grandes que el nav y el cuerpo de la página. Formando como resultando una gran "I".
 
@@ -120,7 +122,7 @@ Si desea conocer un contenido más general de la página (las páginas que exist
         He añadido algunas etiquetas meta a la página para que el SEO favorezca mi página frente a otras en el buscador de Google. Por ejemplo la etiqueta meta Keywords hace que el SEO favorezca dicha página cuando el internauta busca por las palabras introducidas.
 
 
-- **Letra**:  
+- **Tipografia**:  
         En un intento de crear una página web única y completamente distinta a las demás, se ha decidido que la tipografía sea una no convencional, la Roman fatal seriff. Esta tipografia es de la clase de las letras con gracia, las cuales ayudan en la lectura de grandes bloques de texto. Ideal para una wiki como esta. 
 
 
@@ -143,4 +145,7 @@ Si desea conocer un contenido más general de la página (las páginas que exist
 - **Imágenes legales**:  
         Se ha intentado que la página sea lo más legal posible. Para ello se ha investigado la política de SquareEnix respecto a las creaciones de fans del Final Fantasy VII fuera de Japón y se ha intentado que todas las imágenes de la página estén licenciadas en CC o sean del juego original.
         En la mayoría de casos he tenido que proporcionar un link a la imagen y a su respectiva licencia en el footer de cada página.
+
+- **Dominio**:  
+        La página está registrada bajo el dominio "FinalWikiVII". Es un juego de palabras de las palabras más representativas de la página, Wiki y Final Fantyasy VII:
 

@@ -1,6 +1,31 @@
 #   COSAS POR TERMINAR/HACER
 
-### 13 - Implementar la página en una web (000wwebhost)
+### 13 - Cumplir con todos/la mayoría de requisitos de diseño:
+                                                        - Incorpora textura (No). 
+                                                        - Hay audio o vídeo? (No).
+                                                        - Favicon (Documentado).
+    - Usabilidad (Documentado?)
+    - Está validada?
+    - Identifica correctamente la entrega?
+    - Está subida la página?
+    - Identifica proyecto y competencia
+                                                        - Palabras claves y público objetivo (Documentado).
+    - Reticula Balsamiq
+                                                        - Nombre de dominio con sentido (Documentado)
+                                                        - Guia de estilo (Documentado).
+    - Codigo comentado y html y css validado?
+                                                        - responsive? (NO).
+    - CSS ordenado (Hecho?)
+                                                        - Sistemas de carpetas correcto (Documentado).
+                                                        - Boostrap (Documentado).
+                                                        - Diseño relacionado con el proyecto(Documentado).
+                                                        - Imagenes propias(Documentado).
+                                                        - Ruta visual (Documentado).
+                                                        - Equilibrio(Documentado).
+                                                        - CC. Permisos de uso (Documentado).
+                                                        - Tipografia (Documentada).
+
+### 14 - Implementar la página en una web.
 
 # Cosas terminadas
 
