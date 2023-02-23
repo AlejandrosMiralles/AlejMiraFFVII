@@ -1,30 +1,4 @@
 #   COSAS POR TERMINAR/HACER
-
-### 13 - Cumplir con todos/la mayoría de requisitos de diseño:
-                                                        - Incorpora textura (No). 
-                                                        - Hay audio o vídeo? (No).
-                                                        - Favicon (Documentado).
-    - Usabilidad (Documentado?)
-    - Está validada?
-    - Identifica correctamente la entrega?
-    - Está subida la página?
-    - Identifica proyecto y competencia
-                                                        - Palabras claves y público objetivo (Documentado).
-    - Reticula Balsamiq
-                                                        - Nombre de dominio con sentido (Documentado)
-                                                        - Guia de estilo (Documentado).
-    - Codigo comentado y html y css validado?
-                                                        - responsive? (NO).
-    - CSS ordenado (Hecho?)
-                                                        - Sistemas de carpetas correcto (Documentado).
-                                                        - Boostrap (Documentado).
-                                                        - Diseño relacionado con el proyecto(Documentado).
-                                                        - Imagenes propias(Documentado).
-                                                        - Ruta visual (Documentado).
-                                                        - Equilibrio(Documentado).
-                                                        - CC. Permisos de uso (Documentado).
-                                                        - Tipografia (Documentada).
-
 ### 14 - Implementar la página en una web.
 
 # Cosas terminadas
@@ -55,3 +29,29 @@
 ### 11- Terminar de hacer el TODO list
 
 ### 12- Documentar todo (el readme, los phps y html twigs)  
+
+### 13 - Cumplir con todos/la mayoría de requisitos de diseño:
+                                                        - Incorpora textura (No). 
+                                                        - Hay audio o vídeo? (No).
+                                                        - Favicon (Documentado).
+                                                        - Usabilidad (Documentado)
+                                                        - Está validada (No)
+                                                        - Identifica correctamente la entrega(IDK)
+    - Está subida la página?
+                                                        - Identifica proyecto y competencia (Documentado)
+                                                        - Palabras claves y público objetivo (Documentado).
+                                                        - Reticula Balsamiq (No)
+                                                        - Nombre de dominio con sentido (Documentado)
+                                                        - Guia de estilo (Documentado).
+                                                        - Codigo comentado y html y css validado (No).
+                                                        - responsive? (NO).
+                                                        - CSS ordenado (Hecho)
+                                                        - Sistemas de carpetas correcto (Documentado).
+                                                        - Boostrap (Documentado).
+                                                        - Diseño relacionado con el proyecto(Documentado).
+                                                        - Imagenes propias(Documentado).
+                                                        - Ruta visual (Documentado).
+                                                        - Equilibrio(Documentado).
+                                                        - CC. Permisos de uso (Documentado).
+                                                        - Tipografia (Documentada).
+

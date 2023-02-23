@@ -88,9 +88,16 @@ Si desea conocer un contenido más general de la página (las páginas que exist
 
 # Diseño
 
+- **Concepto**:
+        Este sitio web es una wiki del famoso juego Final Fantasy VII. Es de un tipo de páginas que se dedican a reunir mucha información de un tema, en este caso del juego nombrado, en un único lugar. El ejemplo de Wiki más popular es Wikipedia.
+
+
 - **Perfil de usuario**:  
         Mi perfil de usuario describe a los adultos entre 25-33 años que crecioeron jugando Final Fantasy Vii. Pueden o no gustarle el resto de juegos de la saga, pero le encantan jugar JRPGs. SDada su avanzada edad, tienen un poder adquisitivo mínimamente grande. Un día le dio por entrar en mi página por pura curiosidad y amor al juego y para aprender algo nuevo de él. Sus personajes favortios son Cloud y Sefirot. 
 
+
+- **Competencia**:
+        No soy el único en crear una wiki de Final Fantasy VII, tengo competencia. Mi principal rival es "https://finalfantasy.fandom.com". Para destacarme sobre él y que los internautas escojan mi página he decidido apostar por el estilo. En esa página utilizan una plantilla de wikis muy sosa y que no pega nada con la página, mientras que yo he creado la página dedsde 0, haciendo que el estilo sea único, muy distintivo y bonito.
 
 - **Guía de estilo**:  
         Hay dos estilos: nocturno y diurno. 
@@ -145,6 +152,9 @@ Si desea conocer un contenido más general de la página (las páginas que exist
 - **Imágenes legales**:  
         Se ha intentado que la página sea lo más legal posible. Para ello se ha investigado la política de SquareEnix respecto a las creaciones de fans del Final Fantasy VII fuera de Japón y se ha intentado que todas las imágenes de la página estén licenciadas en CC o sean del juego original.
         En la mayoría de casos he tenido que proporcionar un link a la imagen y a su respectiva licencia en el footer de cada página.
+
+- **Accesibilidad**:
+        Se han intentado tener en cuenta algunos problemas de accesibilidad al crear la página. Por ejemplo todas las imágenes tienen un atributo "alt" para aquellas personas que no puedan ver las imágenes, o se ha utilizado la etiqueta label en el formulario  de envío de feedback (en la página principal).
 
 - **Dominio**:  
         La página está registrada bajo el dominio "FinalWikiVII". Es un juego de palabras de las palabras más representativas de la página, Wiki y Final Fantyasy VII:
